@@ -1,0 +1,52 @@
+/* ContactStyles.css */
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.contactme{
+  background-color: black;
+
+}
+
+.contact-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.contact-item strong {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Styling for specific links */
+.contact-item a {
+  text-decoration: none;
+  color: #0077b5; /* LinkedIn blue color */
+  font-weight: bold;
+}
+
+/* Styling for the contact number */
+.contact-item .contact-number {
+  color: #333;
+  font-weight: bold;
+}
+
+
