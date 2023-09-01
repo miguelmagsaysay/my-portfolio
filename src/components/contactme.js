@@ -4,7 +4,7 @@ import "./ContactStyles.css";
 function Contact() {
   const linkedin = "Miguel Jose Magsaysay";
   const github = "@miguelmagsaysay";
-  const contactNumber = "+63 916 306 0307";
+  const contactNumber = "+63 916 306 ...";
 
   return (
     <div className="contact-container" id="contactme">
