@@ -51,7 +51,7 @@ h1{
 @media screen and (max-width: 850px) {
     #home{
         display:block;
-        height: 90vh;
+        height: 70vh;
     }
      #about {
     height: auto; 
@@ -81,7 +81,7 @@ h1{
         font-size: 30px;
       }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
     #home{
         display:block;
     }
@@ -91,7 +91,7 @@ h1{
     padding: 20px;
   }
   img{
-    height: 400px;
+    height: 300px;
     width: auto;
     display: block; /* Ensure proper alignment within the flex container */
     margin: auto;
