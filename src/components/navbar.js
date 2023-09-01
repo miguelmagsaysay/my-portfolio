@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import "./NavbarStyles.css";
 
 class Navbar extends Component {
@@ -10,6 +10,9 @@ class Navbar extends Component {
 
   handleScroll = (event, targetId) => {
     event.preventDefault();
+
+    // Close the navigation menu by setting clicked to false
+    this.setState({ clicked: false });
 
     const targetElement = document.getElementById(targetId);
     if (targetElement) {

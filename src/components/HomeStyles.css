@@ -1,14 +1,16 @@
-*{
-margin: 0px;
+* {
+  margin: 0;
 }
-#home{
-    height: 80vh;
-    display:flex;
-    place-content: space-around;
-    background: white;
-    padding: 50px;
-    align-items: center;
+
+#home {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 50px;
+  align-items: center;
 }
+
 #about {
   display: grid;
   place-items: center;
@@ -16,100 +18,87 @@ margin: 0px;
   margin: 0;
   height: 30vh;
 }
-#image{
-    display: flex;
-align-items: center;
+
+#image {
+  display: flex;
+  align-items: center;
 }
-img{
-    height: 700px;
-    width: auto;
+
+img {
+  max-width: 100%; /* Ensure the image is responsive */
+  max-height: 700px; /* Set a maximum height */
+  width: auto;
+  height: auto; /* Allow the image to maintain its aspect ratio */
 }
-p, h1, h3{
-    margin: 5px;
+
+
+p,
+h1,
+h3 {
+  margin: 5px;
 }
-h1{
-    font-size: 50px;
+
+h1 {
+  font-size: 50px;
 }
+
 #socials {
-    display: flex;
-  }
-  
-  #socials a {
-    margin-right: 30px;
-  }
-  
-  #socials a:last-child {
-    margin-right: 0;
-  }
-  
-  #socials a i {
-    color: black;
-    font-size: 24px;
-  }
-  
+  display: flex;
+}
+
+#socials a {
+  margin-right: 30px;
+}
+
+#socials a:last-child {
+  margin-right: 0;
+}
+
+#socials a i {
+  color: black;
+  font-size: 24px;
+}
 
 @media screen and (max-width: 850px) {
-    #home{
-        display:block;
-        height: 70vh;
-    }
-     #about {
-    height: auto; 
-    text-align: center; 
+  #home {
+    display: block;
+    height: auto;
+  }
+  #about {
+    height: auto;
+    text-align: center;
     padding: 20px;
   }
-  img{
-    height: 200px;
+  img {
     width: auto;
-    display: block; /* Ensure proper alignment within the flex container */
-    margin: auto;
+    max-height: 400px; /* Adjust max height for smaller screens */
+  }
 }
-     #socials {
-        display: flex;
-      }
-      
-      #socials a {
-        margin-right: 30px;
-      }
-      
-      #socials a:last-child {
-        margin-right: 0;
-      }
-      
-      #socials a i {
-        color: black;
-        font-size: 30px;
-      }
-}
+
 @media screen and (max-width: 768px) {
-    #home{
-        display:block;
-    }
-     #about {
-    height: auto; 
-    text-align: center; 
+  #home {
+    display: block;
+  }
+  #about {
+    height: auto;
+    text-align: center;
     padding: 20px;
   }
-  img{
-    height: 300px;
+  img {
     width: auto;
-    display: block; /* Ensure proper alignment within the flex container */
-    margin: auto;
+    max-height: 500px; /* Adjust max height for smaller screens */
+  }
+  #socials a i {
+    font-size: 30px;
+  }
 }
-     #socials {
-        display: flex;
-      }
-      
-      #socials a {
-        margin-right: 30px;
-      }
-      
-      #socials a:last-child {
-        margin-right: 0;
-      }
-      
-      #socials a i {
-        color: black;
-        font-size: 30px;
-      }
+
+/* Additional media query for iPhone 8 and similar devices */
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 36px; /* Adjust font size for smaller screens */
+  }
+  p {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
 }

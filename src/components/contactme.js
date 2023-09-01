@@ -7,7 +7,7 @@ function Contact() {
   const contactNumber = "+63 916 306 0307";
 
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contactme">
       <h1 className="contact-heading">Contact Information</h1>
       <ul className="contact-list">
         <li className="contact-item">
