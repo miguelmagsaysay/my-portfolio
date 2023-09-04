@@ -1,21 +1,7 @@
 import React from "react";
 import "./ProjectStyles.css";
-import project1 from "../images/project1.png";
-import project2 from "../images/project2.png";
-const projectsData = [
-  {
-    img: project1,
-    title: "Workout Buddy",
-    description: "MERN Stack Application that performs CRUD operations",
-  },
-  {
-    img: project2,
-    title: "My Budget",
-    description: "Budget tracker application using PHP on the backend",
-  },
- 
- 
-];
+import projectsData from "../data/projectData";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 function Project() {
   return (
@@ -28,6 +14,38 @@ function Project() {
             <img src={project.img} alt={project.title} />
             <h2>{project.title}</h2>
             <p>{project.description}</p>
+            <div className="stack">
+              {/* Add a label for the technology stack */}
+              <p>Stack Used:</p>
+              <div className="stack-icons">
+                {/* Display technology stack icons */}
+                {project.stack.map((tech, techIndex) => (
+                  <span key={techIndex}>
+                    <i className={`devicon-${tech}-plain`} aria-hidden="true"></i>
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="buttons">
+              <a
+                href={project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="project-button github-button">
+                  <FaGithub className="button-icon" /> View on GitHub
+                </button>
+              </a>
+              <a
+                href={project.websiteLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="project-button website-button">
+                  <FaExternalLinkAlt className="button-icon" /> View Website
+                </button>
+              </a>
+            </div>
           </div>
         ))}
       </div>
