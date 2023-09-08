@@ -7,6 +7,7 @@ function Project() {
   return (
     <div id="project">
       <h1>Projects</h1>
+      <h3>Dive into efficient development, where stacked technology and OOP expertise meet famous functions like RESTful APIs. From a MERN app excelling in CRUD to an innovative Barcode Attendance System and a seamless PHP-backed financial manager, discover the world of efficient development.</h3>
 
       <div className="projects-container">
         {projectsData.map((project, index) => (
@@ -16,7 +17,7 @@ function Project() {
             <p>{project.description}</p>
             <div className="stack">
               {/* Add a label for the technology stack */}
-              <p>Stack Used:</p>
+              <p><b>Stack Used:</b></p>
               <div className="stack-icons">
                 {/* Display technology stack icons */}
                 {project.stack.map((tech, techIndex) => (

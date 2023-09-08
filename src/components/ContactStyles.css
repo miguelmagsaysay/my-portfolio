@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 /* ContactStyles.css */
-
+/* ContactStyles.css */
 .contact-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-
-  margin-top: 50px;
-  margin-bottom: 50px;
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
 }
 
 .contact-heading {
-  font-size: 24px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .contact-list {
@@ -22,32 +19,11 @@
 }
 
 .contact-item {
-  margin-bottom: 10px;
-  display: flex; /* Make items flex containers */
-  align-items: center; /* Center items vertically */
+  margin: 20px 0;
 }
 
-.contact-item strong {
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-/* Styling for specific links */
-.contact-item a {
-  text-decoration: none;
-  color: #0077b5; /* LinkedIn blue color */
-  font-weight: bold;
-  transition: color 0.3s; /* Add a smooth color transition effect */
-}
-
-/* Styling for the contact number */
-.contact-item .contact-number {
-  color: #333;
-  font-weight: bold;
-}
-
-/* Material Icon styling */
 .material-icon {
-  font-size: 1.5rem; /* Adjust the icon size as needed */
+  font-size: 36px;
+  vertical-align: middle;
   margin-right: 10px;
 }

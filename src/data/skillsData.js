@@ -1,43 +1,55 @@
 // skillsData.js
 const skillsData = [
+  {
+    id: 1,
+    title: "Arduino",
+    icon: "arduino",
+    category: "IoT",
+},
+{
+  id: 2,
+  title: "Raspberry Pi",
+  icon: "raspberrypi",
+  category: "IoT",
+},
     {
-      id: 1,
+      id: 3,
       title: "HTML5",
       icon: "html5",
       category: "Front-End",
     },
     {
-      id: 2,
+      id: 4,
       title: "CSS3",
       icon: "css3",
       category: "Front-End",
     },
     {
-      id: 3,
+      id: 5,
       title: "JavaScript (ES6+)",
       icon: "javascript",
       category: "Front-End",
     },
     {
-      id: 4,
+      id: 6,
       title: "React.js",
       icon: "react",
       category: "Front-End",
     },
     {
-      id: 5,
+      id: 7,
       title: "Node.js",
       icon: "nodejs",
       category: "Back-End",
     },
     {
-      id: 6,
+      id: 8,
       title: "Express",
       icon: "express",
       category: "Back-End",
     },
     {
-      id: 7,
+      id: 9,
       title: "MongoDB",
       icon: "mongodb",
       category: "Back-End",
@@ -50,42 +62,35 @@ const skillsData = [
     },
     {
       id: 9,
-      title: "Python",
-      icon: "python",
+      title: "C#",
+      icon: "csharp",
       category: "Back-End",
     },
     {
       id: 10,
-      title: "Java",
-      icon: "java",
-      category: "Back-End",
-    },
-    {
-      id: 11,
       title: "Git",
       icon: "git",
       category: "Version Control",
     },
     {
-      id: 12,
+      id: 11,
       title: "GitHub",
       icon: "github",
       category: "Version Control",
     },
     {
-        id: 13,
-        title: "Csharp",
-        icon: "csharp",
-        category: "Back-End",
-    },
-    {
-        id: 14,
+        id: 12,
         title: ".NET",
         icon: "dotnetcore",
         category: "Back-End",
     },
-    // Add more skills with their corresponding categories
-  ];
+    {
+      id: 13,
+      title: "C++",
+      icon: "cplusplus",
+      category: "IoT",
+  }
+    ];
   
   export default skillsData;
   

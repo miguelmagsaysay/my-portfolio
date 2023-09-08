@@ -1,15 +1,13 @@
-/* Add this CSS at the end of your existing styles */
-
 /* Adjustments for the desired layout */
 #navbar {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Align links to mid-right */
+  justify-content: flex-end;
 }
 
 #navbar li {
   list-style: none;
-  padding: 0 15px; /* Reduce padding for links */
+  padding: 0 15px;
   position: static;
 }
 
@@ -21,7 +19,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: black;
+  background: #333;
   padding: 10px 60px;
   box-shadow: inset;
 }
@@ -39,7 +37,7 @@ nav {
   text-decoration: none;
   color: white;
   font-weight: 500;
-  transition: 0.3s ease-in-out; /* Correct the transition value */
+  transition: 0.3s ease-in-out;
 }
 #navbar li a:hover {
   color: wheat;
@@ -71,7 +69,7 @@ nav {
   border-radius: 5px;
   padding: 10px;
   background-color: white;
-  color: 333332; /* Typo: Change to 333333 */
+  color: 333333;
 }
 #navbar #contact {
   display: none;
@@ -90,7 +88,7 @@ nav {
     right: -1000px;
     width: 100%;
     height: 30vh;
-    background-color: black;
+    background-color: #333;
     padding: 20px 0 0 10px;
   }
   #contact {

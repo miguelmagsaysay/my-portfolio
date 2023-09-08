@@ -16,7 +16,7 @@ function Skills() {
 
   return (
     <div id="skills">
-      <h1>Skills</h1>
+      <h1>Skills & Expertise</h1>
       {Object.entries(groupedSkills).map(([category, skills]) => (
         <div key={category} className="category">
           <h2>{category}</h2>
