@@ -23,7 +23,7 @@ function Skills() {
           <div className="skills-container">
             {skills.map((skill) => (
               <div className="skill" key={skill.id}>
-                <i className={`devicon-${skill.icon}-plain`} aria-hidden="true"></i>
+                <i className={`devicon-${skill.icon}`} aria-hidden="true"></i>
                 <h3>{skill.title}</h3>
               </div>
             ))}

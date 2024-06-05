@@ -11,7 +11,7 @@ function Home() {
         <div id="about">
           <p>Hello, I'm</p>
           <h1>Miguel Jose Magsaysay</h1>
-          <h3>Computer Engineer | Jr. Full-stack Developer</h3>
+          <h3>Computer Engineer | Software Developer</h3>
           <span id="socials">
   <a href="https://www.linkedin.com/in/miguelmagsaysay/"><i class="fab fa-linkedin"></i></a>
   <a href="https://github.com/miguelmagsaysay"><i class="fab fa-github"></i></a>

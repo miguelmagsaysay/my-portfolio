@@ -31,7 +31,7 @@ class Navbar extends Component {
       <>
         <nav>
           <a href="#home">
-            <p id="logo">&lt;myportfolio&gt;</p>
+            <p id="logo">&lt;/&gt;</p>
           </a>
           <div>
             <ul
